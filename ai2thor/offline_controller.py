@@ -43,6 +43,13 @@ class Controller(object):
         p = self.positions[list(self.positions.keys())[50]][0]
         self.last_event = self.load_event(p)
 
+
+    def reset_cheap(self, scene_name, positions, last_event):
+        self.scene_name = scene_name
+        self.positions = positions
+        self.last_event = last_event
+
+
     @property
     def position_x(self):
         return self.last_event.metadata['agent']['position']['x']
