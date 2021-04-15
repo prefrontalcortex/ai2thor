@@ -1,6 +1,5 @@
 {
   "dependencies": {
-    "com.pfc.gltf-tests-shared-assets": "file:../../../../packages/SharedAssets",
     "com.unity.2d.sprite": "1.0.0",
     "com.unity.2d.tilemap": "1.0.0",
     "com.unity.analytics": "3.3.5",
@@ -13,7 +12,6 @@
     "com.unity.textmeshpro": "2.0.1",
     "com.unity.timeline": "1.2.18",
     "com.unity.ugui": "1.0.0",
-    "org.khronos.unitygltf": "file:../../../../packages/prefrontalcortex-UnityGLTF/UnityGLTF/Assets/UnityGLTF",
     "com.unity.modules.ai": "1.0.0",
     "com.unity.modules.androidjni": "1.0.0",
     "com.unity.modules.animation": "1.0.0",
@@ -43,7 +41,11 @@
     "com.unity.modules.vehicles": "1.0.0",
     "com.unity.modules.video": "1.0.0",
     "com.unity.modules.vr": "1.0.0",
-    "com.unity.modules.wind": "1.0.0"
+    "com.unity.modules.wind": "1.0.0",
+    "com.pfc.gltf-tests-shared-assets": "file:../../../../packages/SharedAssets",
+    "org.khronos.unitygltf": "file:../../../../packages/prefrontalcortex-UnityGLTF/UnityGLTF/Assets/UnityGLTF",
+    "com.atteneder.gltfast": "file:../../../../packages/atteneder-glTFast",
+    "com.siccity.gltfutility": "file:../../../../packages/siccity-GLTFUtility"
   },
   "testables":[
     "org.khronos.unitygltf",
