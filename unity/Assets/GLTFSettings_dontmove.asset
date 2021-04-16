@@ -18,4 +18,4 @@ MonoBehaviour:
   tryExportTexturesFromDisk: 1
   exportAnimations: 1
   bakeSkinnedMeshes: 0
-  saveFolderPath: D:/git/unity-gltf-tests/samples/allenai-ai2thor/unity/Exports
+  saveFolderPath: E:/git/unity-gltf-tests/samples/allenai-ai2thor/unity/Assets
