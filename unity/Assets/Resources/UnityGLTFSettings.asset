@@ -14,8 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   exportNames: 1
   exportFullPath: 1
+  useMainCameraVisibility: 1
   requireExtensions: 0
-  tryExportTexturesFromDisk: 1
+  tryExportTexturesFromDisk: 0
+  exportDisabledGameObjects: 0
   exportAnimations: 1
   bakeSkinnedMeshes: 0
-  saveFolderPath: 
